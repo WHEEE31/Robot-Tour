@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Unused third-party texture files
+gridding/assets/enchanted_glint_*.png

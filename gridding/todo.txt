@@ -1,0 +1,6 @@
+ - Make algorithm run faster (try pruning if cost > min)
+
+To Implement:
+ - Randomize functionality?
+     - with keybind + button
+     - smartly generates a new map
