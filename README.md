@@ -2,7 +2,8 @@
 
 Software for my Science Olympiad **Robot Tour** robots (2025 and 2026 seasons): a desktop
 route planner that solves the course, the on-robot drive code that runs it, and custom gyro
-firmware that keeps the robot pointed the right way.
+firmware that keeps the robot pointed the right way. The 2026 robot placed **2nd at the
+New York State tournament**.
 
 In Robot Tour, an autonomous robot drives a grid of 50 cm squares. It has to pass through
 gate zones, avoid walls, and stop on a target point as close as possible to a target time
