@@ -74,8 +74,9 @@ Set `ROOT` near the bottom of `gridding.py` to your local `gridding/assets` fold
 
 Flash an EV3 with [ev3dev](https://pybricks.com/ev3-micropython/startinstall.html), open
 `RobotTour2026/` in VS Code with the LEGO EV3 MicroPython extension, paste the planner's queue
-and target time into the top of `main.py`, and download it to the brick. Upload
-`gyro_code_v3/gyro_code_v3.ino` to the Arduino with the SparkFun ICM-20948 library installed.
+and target time into the top of `main.py`, and download it to the brick. 
+
+Upload `gyro_code_v3/gyro_code_v3.ino` to the Arduino with the SparkFun ICM-20948 library installed.
 
 Wheel size, track width, and the tuning constants in `params` and `times` are specific to my
 robot and will need re-measuring for any other build.
@@ -84,3 +85,8 @@ robot and will need re-measuring for any other build.
 
 Built by Siddharth Nair. Interface font: [Cascadia Code](https://github.com/microsoft/cascadia-code)
 (SIL Open Font License).
+
+## Irrelevant shit
+data_identification.py: was just for testing esp32 connection to ev3.
+motor_run.py: was just for testing something irrelevant
+queue_test.py: testing queue, which is irrelevant

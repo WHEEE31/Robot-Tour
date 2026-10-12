@@ -105,7 +105,7 @@ void loop() {
         gyro.reset(); 
       } 
       else if (cmd == 'c') { // ex c5000 for calibration w/ 5000 samples
-      long sampleCount = 40000;
+      long sampleCount = 30000; // HERE FOR THE LENGTH OF CALIBRATION :D
         if (Serial.peek() >= '0' && Serial.peek() <= '9') {
           sampleCount = Serial.parseInt(); 
         }

@@ -95,6 +95,7 @@ class Odometry:
         return forward, lateral
 
 ### gyro
+############################################################################################ ARDUINO CLASS 
 class ArduinoGyro:
     def __init__(self, port, test=False):
         self.test = test
@@ -181,6 +182,7 @@ class ArduinoGyro:
         # Use the cumulative angle to determine which grid line we are on
         current = self.angle()
         return round(current / 90) * 90
+##########################################################################################################
 
 ### movement functions
 def forward(distance = 50, duration = 0):
