@@ -76,7 +76,7 @@ Flash an EV3 with [ev3dev](https://pybricks.com/ev3-micropython/startinstall.htm
 `RobotTour2026/` in VS Code with the LEGO EV3 MicroPython extension, paste the planner's queue
 and target time into the top of `main.py`, and download it to the brick. 
 
-Upload `gyro_code_v3/gyro_code_v3.ino` to the Arduino with the SparkFun ICM-20948 library installed.
+Upload `gyro_code_v2/gyro_code_v2.ino` to the Arduino with the SparkFun ICM-20948 library installed.
 
 Wheel size, track width, and the tuning constants in `params` and `times` are specific to my
 robot and will need re-measuring for any other build.
@@ -86,7 +86,14 @@ robot and will need re-measuring for any other build.
 Built by Siddharth Nair. Interface font: [Cascadia Code](https://github.com/microsoft/cascadia-code)
 (SIL Open Font License).
 
-## Irrelevant shit
+## Saarth and Ashwin, what do you do???
+
+### Irrelevant shit
 data_identification.py: was just for testing esp32 connection to ev3.
 motor_run.py: was just for testing something irrelevant
 queue_test.py: testing queue, which is irrelevant
+
+### Todo
+ - add a folder for EV2027 and copy over the main.py file !!!
+ - all the other files from RobotTour2026 should not be relevant
+    - if you'd like, you can also copy over the gyro_code_v2.ino
